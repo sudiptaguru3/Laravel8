@@ -1,0 +1,37 @@
+NB=>Problem-8,10,12,13,18,19,23,25,31,40,41,49
+NB=>How to define table name and model name differently in laravel?
+MarkdownMail Template Official Link:https://laravel.com/docs/7.x/releases
+Laravel uninstall : composer global remove laravel/installer
+Laravel 7 installation:composer create-project --prefer-dist laravel/laravel:^7.0 blog
+1.How to upgrade or downgrade a package in laravel?
+2.how to include css and js file inside resources folder in laravel?
+3.How to create controller manually in laravel?
+4.Can we check view first so that errors do not come?
+5.Can we create view like controller using command?
+6.Can we use php tag in views file under resources?
+7.Why should we use csrf in laravel?
+8.Can we apply 2 middleware in a group?
+9.Can we apply 2 middleware in a route?
+10.Can we connect laravel with mongodb,mysql server and oracle?
+11.Can I fetch data of two tables with one model?
+12.Is there any method in route that handle all the methods like get, post, put, delete?
+13.What is flash session?
+14.In localization if I forge to put any key then whats happen?
+15.Can we save data in two table using one model?
+16.How to set model name different from database table name?
+17.How to insert and update with id in query builder?
+18.Can I see min and max together in aggregate function in laravel?
+19.How to migrate two or three tables?
+20.Which file should we change to customize component with stub?
+21.Can we use jetstream in api?
+22.Can we fetch data of two tables using one route?
+23.Can we use API under web.php?
+24.Can we get data of two tables using one api?
+25.Why should we use post method for saving data and do not use get method in API?
+26.Can we use post method instead of put for updating data in API?
+27.How to delete multiple records from database in API?
+28.Can we use resources with normal html form in laravel?
+29.Which is better for authentication among JWT,Sanctum and passcode?
+30.How to create view with custom command?
+31.Can we create join on 2 database?
+32.Can we store file creating another folder instead of app?
