@@ -1,0 +1,58 @@
+54th Part-API Validation:
+
+Route->api.php
+<?php
+use App\Http\Controllers\MemberController;
+
+Route::middleware('auth:api')->get('/user', function (Request $request) {
+    return $request->user();
+});
+Route::post("validate",[MemberController::class,"testData"]);
+
+App->Http->Controllers->MemberController.php
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\Member;
+use Validator;
+class MemberController extends Controller
+{
+    function testData(Request $req)
+    {
+        $rules=array(
+            "emp_id"=>"required | max:4",
+            "name"=>"required"
+        );
+        $validator= Validator::make($req->all(),$rules);
+        if($validator->fails())
+        {
+            //return $validator->errors();
+            return response()->json($validator->errors(),401);
+        }
+        else{
+            $member=new Member;
+            $member->name=$req->name;
+            $member->email=$req->email;
+            $member->address=$req->address;
+            $member->emp_id=$req->emp_id;
+            $result=$member->save();
+            if($result)
+            {
+            return ["result"=>"Data has been saved"];
+            }
+            else{
+                return ["result"=>"Operation Failed"];
+            }
+        }
+    }
+}
+
+55th Part-API with Resource:
+
+Route->api.php
+Route::post("validate",[MemberController::class,"testData"]);
+
+App->Http->Controllers->MemberController.php
+
