@@ -1,0 +1,61 @@
+1.What is laravel
+2.What is composer
+3.how to install
+4.Folder and File Structure
+5.Make First File
+6.Controller
+7.View
+8.Component
+9.Blade Template
+10.Blade Template|Part2
+11.Make html form and get value
+12.Group Middleware
+13.Route Middleware
+14.Connect with database
+15.Model
+16.Http Client
+17.Http Request Methods|post|put|patch
+18.Session|with login example
+19.Flash Session|Example
+20.File upload
+21.Localization|locale
+22.Data in Database
+23.Pagination with Database
+24.Show list from database
+25.Update data in database
+26.Query Builder
+27.Aggregate Methods|sum,avg,min,max etc
+28.Joins
+29.Migration
+30.Important Migration command for Interview
+31.Seeding
+32.Stub
+33.new feature|what is new in laravel8
+34.Bypassing Maintenance Mode
+35.Important Migration command for Interview
+36.update laravel 7 to 8
+37.jetstream tutorial-new feature
+38.Accessors
+39.Mutator
+40.One to One Relation
+41.One to Many Relation
+42.Fluent Strings
+43.Route Model Binding
+44.Markdown Mail Template
+45.Markdown Mail Template
+46.What is API|introduction
+47.Make First API
+48.get data with API|get method
+49.get API with params
+50.post method API
+51.put method API
+52.delete method API
+53.Search API
+54.API Validation
+55.API with Resource
+56.API authentication with sanctum
+57.Make custom command
+58.Multiple database connection
+59.file with API
+60.login with session complete
+61.Interview Questions
